@@ -7,6 +7,9 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#comments"
 		}
 	],
 	"repository": {
@@ -26,7 +29,13 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"comments": {
+			"patterns": [{
+				"name": "comment.step",
+				"match": "'.*"
+			}]
 		}
 	},
-	"scopeName": ""
+	"scopeName": "text.step"
 }

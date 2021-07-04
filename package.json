@@ -18,7 +18,7 @@
         }],
         "grammars": [{
             "language": "step",
-            "scopeName": "test.csv",
+            "scopeName": "text.step",
             "path": "./syntaxes/step.tmLanguage.json"
         }]
     }
