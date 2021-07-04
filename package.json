@@ -1,0 +1,25 @@
+{
+    "name": "yyy",
+    "displayName": "yyy",
+    "description": "xxx",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "step",
+            "aliases": ["yu", "step"],
+            "extensions": [".csv"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "step",
+            "scopeName": "",
+            "path": "./syntaxes/step.tmLanguage.json"
+        }]
+    }
+}
